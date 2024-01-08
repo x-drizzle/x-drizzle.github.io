@@ -247,11 +247,3 @@ a:hover {
     transform: none;
   }
 }
-
-::selection{
-  background: #fc9c9c;
-}
-
-::-moz-selection{
-  background: #fc9c9c;
-}
