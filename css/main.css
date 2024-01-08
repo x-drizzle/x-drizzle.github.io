@@ -169,6 +169,12 @@ a:hover {
   counter-increment: enter-count;
   --stagger: counter(enter-count);
 }
+::selection {
+  background: #fc9c9c;
+}
+::-moz-selection {
+  background: #fc9c9c;
+}
 @-moz-keyframes fall {
   0% {
     transform: translate(0px, 0px);
