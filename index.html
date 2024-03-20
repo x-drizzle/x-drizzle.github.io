@@ -31,11 +31,11 @@
     <a class="logo" href="/">A word or two.</a>
     <ul class="nav">
         
-            <li><a href="/"><u>Home</u></a></li>
+            <li><a href="/"><u><strong>Home</strong></u></a></li>
         
-            <li><a href="/archives"><u>Archives</u></a></li>
+            <li><a href="/archives"><u><strong>Archives</strong></u></a></li>
         
-            <li><a href="/about"><u>About</u></a></li>
+            <li><a href="/about"><u><strong>About</strong></u></a></li>
         
     </ul>
 </div>
@@ -91,6 +91,40 @@
         Powered By <a target="_blank" rel="noreferrer noopener" href="https://hexo.io/zh-cn"><u>Hexo</u>&emsp;</a>
         Theme Designed By <a target="_blank" rel="noreferrer noopener" href="https://github.com/zheli-design/hexo-theme-one-paper"><u>這李</u></a>
     </span>
+    <!--《添加网站运行时间  <br/>-->
+    
+        <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+        <script>
+            var now = new Date();
+
+            function createtime() {
+                //此处修改你的建站时间或者网站上线时间
+                var create_time = '12/27/2023 17:09:23';
+                now.setTime(now.getTime() + 250);
+                days = (now - grt) / 1000 / 60 / 60 / 24;
+                dnum = Math.floor(days);
+                hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+                hnum = Math.floor(hours);
+                if (String(hnum).length == 1) {
+                    hnum = "0" + hnum;
+                }
+                minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+                mnum = Math.floor(minutes);
+                if (String(mnum).length == 1) {
+                    mnum = "0" + mnum;
+                }
+                seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+                snum = Math.round(seconds);
+                if (String(snum).length == 1) {
+                    snum = "0" + snum;
+                }
+                document.getElementById("timeDate").innerHTML = " | 本站已安全运行 " + dnum + " 天 ";
+                document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+            }
+            setInterval("createtime()", 250);
+        </script>
+    
+    <!-- 添加网站运行时间》-->
 </div>
 
 
