@@ -346,3 +346,11 @@ a
     color: var(--font-color-0);
     transition: color ease-in-out .5s;
 }
+::selection{
+    color: #ffffff;
+    background: #fc9c9c;
+}
+::-moz-selection{
+    color: #ffffff;
+    background: #fc9c9c;
+}
