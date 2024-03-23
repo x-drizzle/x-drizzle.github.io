@@ -108,12 +108,16 @@ body[data-color-scheme="auto"] nav .nav-item-discord, body[data-color-scheme="li
     background-image: url(/theme-img/discord-mark-dark.svg);
 }
 
-body[data-color-scheme="auto"] nav .nav-item-search, body[data-color-scheme="light"] nav .nav-item-search {
-    background-image: url(/theme-img/search-dark.svg);
-}
-
 body[data-color-scheme="auto"] nav .nav-item-email, body[data-color-scheme="light"] nav .nav-item-email {
     background-image: url(/theme-img/email-dark.svg);
+}
+
+body[data-color-scheme="auto"] nav .nav-item-cloudmusic, body[data-color-scheme="light"] nav .nav-item-cloudmusic {
+    background-image: url(/theme-img/cloudmusic-dark.svg);
+}
+
+body[data-color-scheme="auto"] nav .nav-item-search, body[data-color-scheme="light"] nav .nav-item-search {
+    background-image: url(/theme-img/search-dark.svg);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -132,11 +136,14 @@ body[data-color-scheme="auto"] nav .nav-item-email, body[data-color-scheme="ligh
     body[data-color-scheme="auto"] nav .nav-item-discord {
         background-image: url(/theme-img/discord-mark-light.svg);
     }
-    body[data-color-scheme="auto"] nav .nav-item-search {
-        background-image: url(/theme-img/search-light.svg);
-    }
     body[data-color-scheme="auto"] nav .nav-item-email {
         background-image: url(/theme-img/email-light.svg);
+    }
+    body[data-color-scheme="auto"] nav .nav-item-cloudmusic {
+        background-image: url(/theme-img/cloudmusic-light.svg);
+    }
+    body[data-color-scheme="auto"] nav .nav-item-search {
+        background-image: url(/theme-img/search-light.svg);
     }
 }
 
@@ -160,12 +167,16 @@ body[data-color-scheme="dark"] nav .nav-item-discord {
     background-image: url(/theme-img/discord-mark-light.svg);
 }
 
-body[data-color-scheme="dark"] nav .nav-item-search {
-    background-image: url(/theme-img/search-light.svg);
-}
-
 body[data-color-scheme="dark"] nav .nav-item-email {
     background-image: url(/theme-img/email-light.svg);
+}
+
+body[data-color-scheme="dark"] nav .nav-item-cloudmusic {
+    background-image: url(/theme-img/cloudmusic-light.svg);
+}
+
+body[data-color-scheme="dark"] nav .nav-item-search {
+    background-image: url(/theme-img/search-light.svg);
 }
 
 @media screen and (max-width: 600px) {
