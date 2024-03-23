@@ -97,7 +97,7 @@ body[data-color-scheme="auto"] nav .nav-item-patreon, body[data-color-scheme="li
 }
 
 body[data-color-scheme="auto"] nav .nav-item-codepen, body[data-color-scheme="light"] nav .nav-item-codepen {
-    background-image: url(/theme-img/ccodepen-dark.svg);
+    background-image: url(/theme-img/codepen-dark.svg);
 }
 
 body[data-color-scheme="auto"] nav .nav-item-mastodon, body[data-color-scheme="light"] nav .nav-item-mastodon {
