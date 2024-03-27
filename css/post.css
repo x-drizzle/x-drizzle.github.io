@@ -308,6 +308,10 @@ body[data-color-scheme="dark"] .tags .icon {
   font-size: 14px;
 }
 
+.busuanzi {
+  text-align: center;
+}
+
 .post-prev-next {
   display: flex;
   justify-content: space-between;
