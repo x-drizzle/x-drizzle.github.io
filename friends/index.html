@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   
-  <title>关于此博客 - ✨</title>
+  <title>Friends - ✨</title>
   
     <link rel="shortcut icon" href="/favicon.png">
   
@@ -16,17 +16,13 @@
   
   
   
-  <meta property="og:title" content="关于此博客 - ✨" />
+  <meta property="og:title" content="Friends - ✨" />
   
-  <meta property="og:type" content="article" />
+  <meta property="og:type" content="website" />
   
-  <meta property="og:url" content="https://no.6u.gs/article/2024/about-the-blog.html" />
+  <meta property="og:url" content="https://no.6u.gs/friends/index.html" />
   
-  <meta property="og:image" content="https://s2.loli.net/2024/03/27/RZSUqQKDoXAJ3Ol.jpg" />
-  
-  <meta property="og:article:published_time" content="2024-03-25T07:14:07.000Z" />
-  
-  <meta property="og:article:author" content="x-drizzle" />
+  <meta property="og:image" content="/favicon.png" />
   
   
 
@@ -143,34 +139,58 @@
         
 
         
-        <div class="date" id="date">
-            <span>March</span>
-            <span>25,</span>
-            <span>2024</span>
-        </div>
-        
 
-        <h1 class="title">关于此博客</h1>
+        <h1 class="title">Friends</h1>
     </div>
 
     <div class="divider"></div>
 
     <div class="content">
-        <p>　　搭建一个属于自己的博客是我心水了很久的一件事儿，从2022年就已经开始尝试去了解搭建博客的相关知识，现如今也算是终于有了个能勉强满足我的基本需求的博客，虽然并不全是自己一行行敲出来的，但是这一路还是收获颇多。</p>
-<p>　　可以访问到这篇博客的网址暂时有两个，分别是 <strong><a href="https://no.6u.gs/">https://no.6u.gs</a></strong> 和 <strong><a target="_blank" rel="noopener" href="https://xiix.in/">https://xiix.in</a></strong> ，是利用 <em><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn">Hexo</a></em> + <em><a target="_blank" rel="noopener" href="https://docs.github.com/zh/pages/getting-started-with-github-pages">Github Pages</a></em> + <em><a target="_blank" rel="noopener" href="https://www.cloudflare-cn.com/developer-platform/pages">Cloudflare Pages</a></em> 以及本地部署搭建完成的静态网页博客，目前我认为算是比较折中的一种方案。</p>
-<p>　　当然这并不是一开始我使用的域名。最开始的是一个与我姓名缩写有关系的域名（ <em><a target="_blank" rel="noopener" href="https://yzow.cn/">yzow.cn</a></em> ），那段时间发现很多大佬都有很好记的域名作为博客地址，奈何我没那精力与财力。后边了解到各大云服务商有个功能叫“一口价域名”，运气好能遇到一些不太昂贵的好记域名，然后某一天在阿里云的一口价域名页面看到了上述的域名，只有四个字母，且还是咱们国家的顶级域名 <em><a target="_blank" rel="noopener" href="https://www.cnnic.cn/n4/2024/0227/c208-10931.html">.cn</a></em> ，于是并未犹豫便拿下了。</p>
-<p>　　买了域名的下一步是什么呢，当时其实有接触到 <em><a target="_blank" rel="noopener" href="https://docs.github.com/zh/pages/getting-started-with-github-pages">GitHub Pages</a></em> ，但是无奈它只能托管静态网页，但是我这么喜欢折腾，总觉得静态网页有点没意思，便想着去哪整个服务器玩玩，逛了不少论坛发现好多人推荐练手建议从免费VPS入手，既不用去了解Linux的知识，也不用愁搭建环境时遇上的种种报错，当然也免去了被DDos攻击以及cdn防护等的相关事宜。</p>
-<p>　　VPS似乎有不少云服务商提供免费的，但是我所能接触到最多的大多都是国内的，一言不合就让你实名认证，一实名那些什么都会有限制，跟写公众号和微博没啥区别，而且大部分都是安装好了管理面板，简单是简单，感觉太简单了点。于是我又开始找寻位于城墙外的VPS，找寻许久发现大部分都会有每月一美刀的机型，而且很少有装好管理面板，基本都支持SSH，既然是学习知识交点学费实践实践也不亏，于是便开始了Linux的学习。</p>
-<p>　　但是也不是没有难题。一直以来我用的都是可视化的windows系统，对于服务器上Linux系统，首先它并不是可视化界面（可以安装但是通常没必要），几乎用不上鼠标操作，其次其需要了解掌握大量的指令，此外不同Linux系统的指令都有些许差异，远程连接还需要了解SSH、公钥私钥的概念，不同SSH工具之间也有差异……</p>
-<p>　　到后来又发现一个问题，这些VPS都是共享的IP地址，只要共享IP地址的这么多人中的有一个人去干坏事，我部署的网页也会跟着受影响。于是便又萌生了买服务器的想法，但是服务器又涉及到IP地址，IPv4地址早在2019年11月26日就耗尽了，说白了也就是带IPv4的地址的服务器不会太便宜，IPv6的地址一大长串又不好记，于是趁着还是学生的身份搞了台带公网IPv4的阿里云服务器的7个月使用权。</p>
-<p>　　由于特殊性等众多原因，使用国内IP的服务器需要对其搭配的域名进行备案，虽然不太愿意去备案，但是服务器都到手了总不能浪费了，便又花费小半个月时间完成备案。</p>
-<p>　　不过现在这个域名已经出售了，具体原因可参考下面这两篇文章：　　</p>
-<ol>
-<li><a target="_blank" rel="noopener" href="https://www.williamlong.info/archives/1654.html">警告 不要在国内注册和使用CN域名 - 月光博客</a></li>
-<li><a target="_blank" rel="noopener" href="https://cyrusyip.org/zh-cn/post/2021/05/25/damn-cn-domain">不要注册cn域名 - 叶寻的博客</a></li>
-</ol>
-<p>　　</p>
-<p>未完待续……</p>
+        <h2 id="Me"><a href="#Me" class="headerlink" title="Me"></a>Me</h2><div class="container">
+    <div class="card" style="display: grid; grid-template-columns: minmax(128px, 10%) 1fr; padding: 8px 16px;">
+        <img src="/favicon.png" alt="Mr. Will's blog's logo" style="height: 100%; object-fit: contain;">
+        <div>
+            <h1>Mr. Will</h1>
+            <p>I'm a JavaScript developer, working on some JavaScript open source projects, learning some JavaScript coding skills and sharing my JavaScript coding experiences.</p>
+            <div class="actions">
+                <div class="right">
+                    <a class="action-button-primary" href="mailto:mr.will.com@outlook.com">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 id="Friends"><a href="#Friends" class="headerlink" title="Friends"></a>Friends</h2><div class="card-grid">
+    <div class="card">
+        <div class="cover-img">
+            <img src="/img/000005.png" alt="ChungZH.cn's logo">
+        </div>
+        <div class="content">
+            <p class="title">ChungZH</p>
+            <p class="description">Young, Simple, Naive</p>
+        </div>
+        <div class="actions">
+            <div class="right">
+                <a class="action-button-primary" target="_blank" rel="noopener" href="https://chungzh.cn/">Visit</a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="cover-img">
+            <img src="/img/000007.png" alt="Louis Aeilot's Avatar">
+        </div>
+        <div class="content">
+            <p class="title">Louis Aeilot</p>
+            <p class="description">Stay Hungry. Stay Foolish.</p>
+        </div>
+        <div class="actions">
+            <div class="right">
+                <a class="action-button-primary" target="_blank" rel="noopener" href="https://aeilot.top/">Visit</a>
+            </div>
+        </div>
+    </div>
+</div>
 
     </div>
 <!--
@@ -191,21 +211,9 @@
 
     <div class="container post-prev-next">
         <a class="next"></a>
-        
-        <a href="/article/2024/untitled.html" class="prev">
-            <div>
-                <div class="text">
-                    <p class="label">Previous</p>
-                    <h3 class="title">Untitled</>
-                </div>
-            </div>
-        </a>
-        
+        <a class="prev"></a>
     </div>
 
-    
-        
-        
     
 </article>
 
