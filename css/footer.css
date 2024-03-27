@@ -57,7 +57,7 @@ footer .color-scheme-toggle {
     padding: 1px;
     gap: 1px;
     border-radius: 16px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--pink);
     margin-top: 16px;
     width: max-content;
 }
@@ -85,5 +85,5 @@ footer .color-scheme-toggle label span {
 
 footer .color-scheme-toggle label input:checked+span {
     color: var(--white-txt-on-blue-bg);
-    background-color: var(--blue);
+    background-color: var(--pink);
 }
